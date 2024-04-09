@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yaswanth Kuramdasu</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav>
+    <ul class="sidebar">
+      <li  onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"></path></svg></a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Contact me</a></li>
+    </ul>
+    <ul>
+      <li class="hom"><a href="./index.html#hero">Home</a></li>
+      <li class="hom"><a href="./index.html#about">About</a></li>
+      <li class="hom"><a href="./index.html#skills">Skills</a></li>
+      <li class="hom"><a href="./index.html#footer">Contact me</a></li>
+      <li class="menu" onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"></path></svg></a></li>
+    </ul>
+  </nav>
+
+
+  <!-- Hero section -->
+  <section id="hero">
+    <div class="container">
+      <div class="left">
+        <h2 class="heading">
+          <p class="subheading">Hello, I'm</p>
+          <div class="wrapper"><span>Yaswanth Kuramdasu</span></div>
+        </h2>
+        <p class="desc">Glad to see you here!</p>
+        
+        <div class="wrap">
+          <a class="l" target="_blank" href="https://www.linkedin.com/in/yaswanthkuramdasu/"> <div class="button">
+          <div class="icon">
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div></a>
+        <a class="l" target="_blank" href="https://wa.me/918297031456"><div class="button">
+          <div class="icon">
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+        </div></a>
+        <a class="l" target="_blank" href="https://github.com/yk0007"><div class="button">
+          <div class="icon">
+           <i class="fa-brands fa-github"></i>
+          </div>
+        </div></a>
+      </div>
+
+      </div> 
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-heading" data-outline="about">About</h2>
+      <div class="wrapper">
+        <div class="right">
+          <p class="subheading">Hi, This is Yaswanth,</p>
+          <h2 class="slogan">Computer Science Student</h2>
+          <p class="right-text">
+            I am a CSE student with a specialization in AI, and a keen interest in data science and ML and also in web development.
+             I have strong fundamentals in programming and data structures in programming languages such as Python, C++, C. 
+             I am looking for internship opportunities where I can apply my skills and knowledge to real-world problems.
+          </p>
+          <div class="buttons">
+            <a href="./resume.pdf" class="primary-btn" download="">Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Skills Sections-->
+<section id="skills">
+  <div class="container">
+    <h2 class="section-heading" data-outline="skills">Skills</h2>
+   
+    <div class="scontainer">
+    <div class="skill-box">
+      <div class="skill-title">
+        <div class="imgs">
+          <img src="./skill/p.png" class="skill-icon" alt="Html5">
+        </div>
+        <h3>Python</h3>
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <div class="skill-title">
+        <div class="imgs">
+          <img src="./skill/C.png" class="skill-icon" alt="CSS">
+        </div>
+        <h3>C++</h3>
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <div class="skill-title">
+        <div class="imgs">
+          <img src="./skill/S.png" class="skill-icon" alt="JavaScript">
+        </div>
+        <h3>SQL</h3>
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <div class="skill-title">
+        <div class="imgs">
+          <img src="./skill/H.png" class="skill-icon" alt="Python">
+        </div>
+        <h3>HTML 5</h3>
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <div class="skill-title">
+        <div class="imgs">
+          <img src="./skill/JS.png" class="skill-icon" alt="Sass">
+        </div>
+        <h3>JavaScript</h3>
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <div class="skill-title">
+        <div class="imgs">
+          <img src="./skill/J.png" class="skill-icon" alt="MySql">
+        </div>
+        <h3>Java</h3>
+      </div>
+    </div>
+  </div>
+  </div>  
+</section>
+
+  <!-- Footer Section -->
+  <section id="footer">
+    <div class="container">
+      <footer>
+        <div class="col-3">
+          <h2 class="column-heading">Contact<br>Info</h2>
+          <ul>
+            <li><a href="mailto:yaswanthkuramdasu@gmail.com">yaswanthkuramdasu@gmail.com</a></li>
+            <li><a href="tel:+918297031456">+918297031456</a></li>
+            <li><a href="https://www.google.com/search?q=andhra+pradesh">Andhra Pradesh, India</a></li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <h2 class="column-heading">Social<br>Links</h2>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/yaswanthkuramdasu/">LinkedIn</a></li>
+            <p><pre>       </pre></p><br><li><a href="https://www.github.com/yk0007">Github</a></li>
+          </ul>
+          </div>
+      </footer>
+    </div>
+  </section>
+  
+  <script src="./app.js"></script>
+</body>
+
+</html>

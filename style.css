@@ -179,6 +179,9 @@ nav a:hover{
 	padding: 0.6em 1.6em;
 	border-radius: 50px;
 }
+.primary-btn:hover{
+	background-color: #090807;
+}
 
 .buttons svg {
 	width: 50px;
